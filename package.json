@@ -18,10 +18,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start:server": "cd ./server && npm start && cd ../",
+    "start:server": "cd ./json && npm start && cd ../",
     "start:client": "yarn react-scripts start",
     "start": "concurrently \"yarn start:client\" \"yarn start:server\"",
-    "install:server": "cd ./server && npm install && cd ../",
+    "install:server": "cd ./json && npm install && cd ../",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
